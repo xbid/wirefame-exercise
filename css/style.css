@@ -1,0 +1,120 @@
+body{
+    font-family: 'Tajawal', sans-serif;
+    margin: 0px;
+}
+
+header{
+    position: relative;
+}
+
+header nav {
+    background-color: rgb(60, 60, 60);
+}
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header nav img{
+    position: relative;
+    border-radius: 15px;
+    margin: 5px;
+    margin-left: 150px;
+}
+
+header nav ul{
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    margin-right: 250px;
+
+}
+
+header nav ul li{
+    margin: 25px;
+    margin-right: 50px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+header nav ul li a{
+    color: lightgray;
+    text-decoration: none;
+    margin: 5px;
+}
+
+header nav ul li a:hover{
+    color: gray;
+}
+
+.firstNav{
+    display: grid;
+    grid-template-columns: fr1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.firstNav img{
+    position: relative;
+    margin: auto;
+}
+
+.secondNav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 15px;
+}
+
+.secondNav img{
+   align-self: center;
+   margin: 15px;
+}
+
+.thirdNav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 15px;
+}
+
+.thirdNav h1{
+    margin-top: 15px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.thirdNav p{
+    margin-right: 50px;
+}
+
+.thirdNav img {
+    margin-left: 15px;
+}
+
+.thirdNav button{
+    width: 180px;
+    font-size: 20px;
+    color: white;
+    font: bold;
+    padding: 12px 0;
+    background:  rgb(106, 106, 106);
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    margin-top: 30px;
+}
+
+
+footer{
+    background-color: rgb(60, 60, 60);
+    position: relative;
+    height: 60px;
+    
+}
+
+footer p{
+    color: gainsboro;
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
